@@ -32,6 +32,7 @@ Goods.prototype.render = function (endIndex) {
             'data-id-product': this.goods[i].id_product,
             'data-index': i
         });
+        
         var $buyButton = $('<button class="goods__button buy_button" type="button">Add To Cart</button>');
         var $compareButton = $('<button class="goods__button compare-button" type="button"></button>');
         var $addWishButton = $('<button class="goods__button add-to-wish-button" type="button"></button>');
