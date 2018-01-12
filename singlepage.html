@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles-for-singlepage.css">
+    <link rel="stylesheet" href="css/singlepage-slider.css">
+
+    <title>THE BRAND OF LUXERIOUS FASHION</title>
+    <script src="js/libs/jquery-3.2.1.min.js"></script>
+    <script src="js/BuyModule/Goods.js"></script>
+    <script src="js/BuyModule/Basket.js"></script>
+    <script src="js/BuyModule/init.js"></script>
+
+</head>
+<body>
+<header class="header">
+    <div class="container flex-container">
+        <a href="index.html" class="logo header__logo">
+            <img src="img/logo.png" alt="b"><div>BRAN<span>D</span></div>
+        </a>
+        <form action="#" id="search">
+            <button type="button" class="drop-down-button button-gray">Browse
+            </button>
+            <div class="browse-category menu">
+                <fieldset>
+                    <legend>Women</legend>
+                    <ul>
+                        <li><input id="dresses" type="checkbox"><label for="dresses">Dresses</label></li>
+                        <li><input id="tops" type="checkbox"><label for="tops">Tops</label></li>
+                        <li><input id="sweaters-knits" type="checkbox"><label for="sweaters-knits">Sweaters/Knits</label></li>
+                        <li><input id="jackets-coats" type="checkbox"><label for="jackets-coats">Jackets/Coats</label></li>
+                        <li><input id="blazers-women" type="checkbox"><label for="blazers-women">Blazers</label></li>
+                        <li><input id="denim" type="checkbox"><label for="denim">Denim</label></li>
+                        <li><input id="leggings" type="checkbox"><label for="leggings">Leggings/Pants</label></li>
+                        <li><input id="skirts" type="checkbox"><label for="skirts">Skirts/Shorts</label></li>
+                        <li><input id="accessories" type="checkbox"><label for="accessories">Accessories</label></li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Men</legend>
+                    <ul>
+                        <li><input id="tees" type="checkbox"><label for="tees">Tees/Tank tops</label></li>
+                        <li><input id="shirts" type="checkbox"><label for="shirts">Shirts/Polos</label></li>
+                        <li><input id="sweaters" type="checkbox"><label for="sweaters">Sweaters</label></li>
+                        <li><input id="sweatshirts" type="checkbox"><label for="sweatshirts">Sweatshirts/Hoodies</label></li>
+                        <li><input id="blazers-man" type="checkbox"><label for="blazers-man">Blazers</label></li>
+                        <li><input id="jackets-vests" type="checkbox"><label for="jackets-vests">Jackets/vests</label></li>
+                    </ul>
+                </fieldset>
+            </div>
+            <input class="search__input_text" type="search" placeholder="Search for Item...">
+            <input class="search__button" type="submit" value=" ">
+        </form>
+        <div id="live-card">
+            <a href="#"><img class="cart__icon" src="img/card-icon.svg" alt="Cart"></a>
+        </div>
+        <button class="drop-down-button button-red">My Account</button>
+    </div>
+    <div class="flex-container">
+        <nav class="primary-menu">
+            <ul class="primary-menu-list">
+                <li class="primary-menu__item-wrap"><a class="primary-menu__item active" href="index.html">Home</a></li>
+                <li class="primary-menu__item-wrap"><a class="primary-menu__item" href="product.html">Man</a></li>
+                <li class="primary-menu__item-wrap"><a class="primary-menu__item" href="#">Women</a>
+                    <div class="mega-menu menu">
+                        <div>
+                            <h6>Women</h6>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                                <li><a href="#">Blazers</a></li>
+                                <li><a href="#">Denim</a></li>
+                                <li><a href="#">Leggings/Pants</a></li>
+                                <li><a href="#">Skirts/Shorts</a></li>
+                                <li><a href="#">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6>Women</h6>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6>Women</h6>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6>Women</h6>
+                            <ul>
+                                <li><a href="#">Dresses</a></li>
+                                <li><a href="#">Tops</a></li>
+                                <li><a href="#">Sweaters/Knits</a></li>
+                                <li><a href="#">Jackets/Coats</a></li>
+                            </ul>
+                        </div>
+                        <figure class="promo-sales"><a href="#"><img src="img/layer-42.png" alt=""></a><figcaption><a href="">Super<br>  sale!</a></figcaption></figure>
+                    </div>
+                </li>
+                <li class="primary-menu__item-wrap"><a class="primary-menu__item" href="#">Kids</a></li>
+                <li class="primary-menu__item-wrap"><a class="primary-menu__item" href="#">Accoseriese</a></li>
+                <li class="primary-menu__item-wrap"><a class="primary-menu__item" href="#">Featured</a></li>
+                <li class="primary-menu__item-wrap"><a class="primary-menu__item" href="#">Hot Deals</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div class="breadcrumb">
+        <div class="container flex-container">
+            <h3>New Arrivals</h3>
+            <nav class="flex-container">
+                <a href="index.html">Home</a>
+                <a href="product.html">Men</a>
+                <a href="#" class="active">New Arrivals</a>
+            </nav>
+        </div>
+    </div>
+                        <article id=slider>
+                <input type=radio name=slider id=slide1>
+                <input checked type=radio name=slider id=slide2>
+                <input type=radio name=slider id=slide3>
+                <div id=slides>
+                    <div id=overflow>
+                        <div class=inner>
+                            <figure>
+                                <img src="img/goods-photo2.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="img/goods-photo2.png" alt="">
+                            </figure>
+                            <figure>
+                                <img src="img/goods-photo2.png" alt="">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                <div id=controls>
+                    <label for=slide1></label>
+                    <label for=slide2></label>
+                    <label for=slide3></label>
+                </div>
+                <div class="container goods-info flex-container">
+                <h5>WOMEN COLLECTION</h5>
+                <div id=active>
+                    <label for=slide1></label>
+                    <label for=slide2></label>
+                    <label for=slide3></label>
+                    <div id="caret"></div>
+                </div>
+                <h4>Moschino Cheap And Chic</h4>
+                <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.
+                </p>
+                <div class="goods-chars flex-container">
+                    <div>MATERIAL: <span>COTTON</span></div>
+                    <div>DESIGNER: <span>BINBURHAN</span></div>
+                </div>
+                <output id="goods-price">$561</output>
+                <form action="#" id="add-to-cart" class="flex-container">
+                    <div class="choose-color">
+                        <h5>CHOOSE COLOR</h5>
+                        <button id="show-color-menu" type="button" class="red-color add-to-cart_options dropable"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                        <div class="color-menu">
+                            <button type="button" class="button-menu" id="red-color">Red</button>
+                            <button type="button" class="button-menu" id="black-color">Black</button>
+                            <button type="button" class="button-menu" id="white-color">White</button>
+                        </div>
+                    </div>
+                    <div class="choose-size">
+                        <h5>CHOOSE SIZE</h5>
+                        <button id="show-size-menu" type="button" class="add-to-cart_options dropable">XS</button>
+                        <div class="size-menu">
+                            <button type="button" class="button-menu size-menu-button" id="xxl-size">XXL</button>
+                            <button type="button" class="button-menu size-menu-button" id="xs-size">XS</button>
+                            <button type="button" class="button-menu size-menu-button" id="xl-size">XL</button>
+                            <button type="button" class="button-menu size-menu-button" id="s-size">S</button>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>QUANTITY</h5>
+                        <input id="quantity" type="number" class="add-to-cart_options" value="1" min="1">
+                    </div>
+                    <button id="buy_button" type="submit" style="width: 100%">Add to Cart</button>
+                </form>
+                  </div>
+            </article>
+    <div class="container flex-container">
+             <section class="also-like">
+                <h2>you may like also</h2>
+                <div class="flex-container goods" id="goods3">
+                </div>
+            </section>
+    </div>
+<section class="reviev-subscribe">
+    <div class="cover">
+        <div class="container flex-container">
+            <div>
+                <div class="reviev-slider">
+                    <div class="slide slide1" style="display: none">
+                        <img src="img/reviev-photo.png" alt="Client photo">
+                        <div class="reviev">
+                            <p class="reviev-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                            <h6>Bin Burhan</h6>
+                            <p>Dhaka, Bd</p>
+                        </div>
+                    </div>
+                    <div class="slide slide2" style="display: none">
+                        <img src="img/reviev-photo.png" alt="Client photo">
+                        <div class="reviev">
+                            <p class="reviev-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                            <h6>Evgen Petrocyan</h6>
+                            <p>Dhaka, Bd</p>
+                        </div>
+                    </div>
+                    <div class="slide slide3" style="display: none">
+                        <img src="img/reviev-photo.png" alt="Client photo">
+                        <div class="reviev">
+                            <p class="reviev-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                            <h6>Dan Balan</h6>
+                            <p>Dhaka, Bd</p>
+                        </div>
+                    </div>
+                    <div class="slider-nav">
+                        <div data-slide="1" class="nav"></div>
+                        <div data-slide="2" class="nav"></div>
+                        <div data-slide="3" class="nav"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe">
+                <h3>Subscribe</h3>
+                <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                <form action="#">
+                    <input type="email" placeholder="Enter Your Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer>
+        <div class="container flex-container">
+            <div> <a href="#" class="logo">
+             <img src="img/logo.png" alt="b"><div>BRAN<span>D</span></div>
+            </a>
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                <p>Efficiently plagiarize 24/365 action items and focused infomediaries.Distinctively seize superior initiatives for wireless technologies. Dynamically optimize</p>
+            </div>
+            <nav>
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How It Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <h4>INFORMATION</h4>
+                <ul>
+                    <li><a href="#">Tearms & Condition</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">How to Buy</a></li>
+                    <li><a href="#">How to Sell</a></li>
+                    <li><a href="#">Promotion</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <h4>SHOP CATEGORY</h4>
+                <ul>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Child</a></li>
+                    <li><a href="#">Apparel</a></li>
+                    <li><a href="#">Brows All</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="bottom-footer">
+            <div class="container flex-container">
+                <div class="copyright">© 2017 Brand All Rights Reserved.</div>
+                <div class="socials">
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/scripts.js"></script>
+<script src="js/reviev-slider.js"></script>
+</body>
+</html>
