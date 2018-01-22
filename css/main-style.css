@@ -1402,6 +1402,11 @@ input[type="email"]:valid {
     .mega-menu{
         left: 0;
     }
+    .column.column-left, .column.column-right{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
 
 @media only screen and (max-width: 978px){
